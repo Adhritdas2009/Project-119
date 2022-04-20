@@ -1,0 +1,49 @@
+#sketch{
+    width: 100%;
+    padding: 15px;
+    font-size: 50px;
+    font-family: 'Beau Rivage', cursive;
+}
+
+.btn-info #btnsktch{
+    float: right;
+    font-size: 35px;
+    font-family: 'Beau Rivage', cursive;
+}
+
+#lable{
+    font-size: 20px;
+    font-family: 'Beau Rivage', cursive;
+    color: whitesmoke;
+}
+
+body{
+    background: url(back.webp);
+    background-size: cover;
+}
+
+canvas{
+    border: 2px ridge rgb(137, 197, 233);
+    border-radius: 100px;
+    background-color: whitesmoke;
+    margin-top: 230px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{
+        box-shadow: 2px 2px 20px rgb(132, 143, 8);
+    }
+
+    to{
+        box-shadow: 2px 2px 20px rgb(143, 6, 111);
+    }
+}
+
+#labye{
+    font-size: 20px;
+    font-family: 'Beau Rivage', cursive;
+    color: whitesmoke;
+}
